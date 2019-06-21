@@ -26,3 +26,21 @@ function operate(sign, num1, num2){
     }
 }
 
+const screen = document.querySelector(".screen");
+
+function display(str){
+    if (str === "clear"){
+        screen.textContent = "";
+    }else {
+        screen.textContent += str;
+    }
+    
+}
+
+const btns = document.querySelectorAll("button");
+btns.forEach(element => {
+    element.addEventListener('click', (e)=>{
+        display(element.textContent);
+    })
+});
+
