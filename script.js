@@ -43,9 +43,8 @@ function screenToOperate(str) {
     var num2 = "";
     var operator = "";
     var nowChar = "";
-    const length = str.length;
 
-    for (let i = 0; i < length; i++) {
+    for (let i = 0; i < str.length; i++) {
         nowChar = str.charAt(i);
 
         if (nowChar >= "0" && nowChar <= "9" || nowChar === ".") {
