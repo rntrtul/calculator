@@ -73,6 +73,6 @@ button:hover {
 }
 
 .equal-sign {
-    grid-area: 2 / 4 / 6;
+    grid-area: 2 / 4 / 5;
     height: auto;
 }
